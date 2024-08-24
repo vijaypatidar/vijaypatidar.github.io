@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_portfolio=self.webpackChunkmy_portfolio||[]).push([[7472],{5513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"What Is Stream In java","permalink":"/blog/what-is-stream-in-java","unlisted":false},{"title":"Build Docker Image Using Jib","permalink":"/blog/build-docker-image-using-jib","unlisted":false}]}')}}]);

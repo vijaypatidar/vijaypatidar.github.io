@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_portfolio=self.webpackChunkmy_portfolio||[]).push([[8121],{8070:a=>{a.exports=JSON.parse('{"tags":[{"label":"Java","permalink":"/blog/tags/java","description":"Java","count":2},{"label":"Spring","permalink":"/blog/tags/spring","description":"Spring Boot","count":1}]}')}}]);
