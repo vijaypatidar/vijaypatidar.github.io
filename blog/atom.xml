@@ -69,7 +69,7 @@
             <name>Vijay Patidar</name>
             <uri>https://github.com/vijaypatidar</uri>
         </author>
-        <category label="database" term="database"/>
+        <category label="Database" term="Database"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Instrumenting Spring Boot Applications with OpenTelemetry (Without Java Agent)]]></title>
