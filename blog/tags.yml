@@ -1,0 +1,13 @@
+java:
+  label: Java
+  permalink: /java
+  description: Java
+spring:
+  label: Spring
+  permalink: /spring
+  description: Spring Boot
+
+database:
+  label: Database
+  permalink: /database
+  description: Database
