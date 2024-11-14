@@ -4,10 +4,46 @@
         <title>Vijay Patidar Blog</title>
         <link>https://vijaypatidar.github.io/blog</link>
         <description>Vijay Patidar Blog</description>
-        <lastBuildDate>Thu, 26 Sep 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 14 Nov 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[What is Spring Framework]]></title>
+            <link>https://vijaypatidar.github.io/blog/what-is-spring-and-spring-boot</link>
+            <guid>https://vijaypatidar.github.io/blog/what-is-spring-and-spring-boot</guid>
+            <pubDate>Thu, 14 Nov 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Spring Framework]]></description>
+            <content:encoded><![CDATA[<h3 class="anchor anchorWithStickyNavbar_LWe7" id="spring-framework">Spring Framework<a href="https://vijaypatidar.github.io/blog/what-is-spring-and-spring-boot#spring-framework" class="hash-link" aria-label="Direct link to Spring Framework" title="Direct link to Spring Framework">​</a></h3>
+<p>The <strong>Spring Framework</strong> is a comprehensive and widely-used framework in the Java ecosystem for building enterprise-level applications. Its core feature is <strong>dependency injection (DI)</strong>, which helps with the loose coupling of components, making applications easier to manage and test. Spring provides many modules for various tasks, like web development, data access, messaging, and more, making it highly modular and suitable for a variety of projects.</p>
+<p><strong>Key Features of Spring Framework</strong>:</p>
+<ol>
+<li><strong>Dependency Injection (DI)</strong> and <strong>Inversion of Control (IoC)</strong>: Simplifies object creation and dependency handling.</li>
+<li><strong>Aspect-Oriented Programming (AOP)</strong>: Adds cross-cutting concerns like logging and transaction management.</li>
+<li><strong>Data Access</strong>: Supports integration with JDBC, JPA, Hibernate, and other data access technologies.</li>
+<li><strong>Web Development</strong>: Spring MVC (Model-View-Controller) module helps in building web applications.</li>
+<li><strong>Modularity</strong>: Has different modules like Spring Core, Spring Data, Spring Web, Spring Security, etc.</li>
+</ol>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="spring-boot">Spring Boot<a href="https://vijaypatidar.github.io/blog/what-is-spring-and-spring-boot#spring-boot" class="hash-link" aria-label="Direct link to Spring Boot" title="Direct link to Spring Boot">​</a></h3>
+<p><strong>Spring Boot</strong> is a project built on top of the Spring Framework that aims to simplify the process of creating stand-alone, production-ready Spring applications. It abstracts away much of the configuration and boilerplate code that is traditionally associated with setting up a Spring project. With Spring Boot, you can get a Spring application up and running with minimal setup.</p>
+<p><strong>Key Features of Spring Boot</strong>:</p>
+<ol>
+<li><strong>Auto-Configuration</strong>: Automatically configures your application based on the dependencies you include in the project.</li>
+<li><strong>Standalone Applications</strong>: Allows you to create standalone applications that run with <code>java -jar</code> commands.</li>
+<li><strong>Embedded Servers</strong>: Comes with embedded servers (like Tomcat, Jetty), so you don’t need to deploy the application to an external server.</li>
+<li><strong>Spring Boot Starters</strong>: Simplifies dependency management by providing pre-configured sets of libraries (Starters) for different use cases (e.g., <code>spring-boot-starter-web</code> for web applications).</li>
+<li><strong>Production-Ready Features</strong>: Provides metrics, health checks, and externalized configuration to help in production management.</li>
+</ol>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="relationship-between-spring-framework-and-spring-boot">Relationship Between Spring Framework and Spring Boot<a href="https://vijaypatidar.github.io/blog/what-is-spring-and-spring-boot#relationship-between-spring-framework-and-spring-boot" class="hash-link" aria-label="Direct link to Relationship Between Spring Framework and Spring Boot" title="Direct link to Relationship Between Spring Framework and Spring Boot">​</a></h3>
+<ul>
+<li><strong>Spring Framework</strong> is the foundation of Spring-based projects and includes all the core functionalities, like DI, AOP, and MVC. Spring Boot, however, is built on top of the Spring Framework to simplify the process of developing Spring applications.</li>
+<li><strong>Spring Boot</strong> is not a replacement but an enhancement for the Spring Framework, offering tools and defaults that help developers to rapidly create applications without writing too much configuration.</li>
+<li><strong>Spring Boot</strong> leverages the components of the Spring Framework but adds its layer of abstraction, allowing for quick setup and ready-to-use defaults, especially useful for microservices and RESTful APIs.</li>
+</ul>
+<p>In summary, <strong>Spring Framework</strong> provides the core infrastructure, while <strong>Spring Boot</strong> makes it easier to create applications with Spring by reducing configuration and simplifying the setup process.</p>]]></content:encoded>
+            <category>Spring</category>
+            <category>Java</category>
+        </item>
         <item>
             <title><![CDATA[When to choose MySql vs PostgreSql relation databse]]></title>
             <link>https://vijaypatidar.github.io/blog/When-to-choose-MySql-vs-PostgreSql-relation-databse</link>
