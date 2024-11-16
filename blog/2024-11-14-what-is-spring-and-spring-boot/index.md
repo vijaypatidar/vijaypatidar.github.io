@@ -5,7 +5,7 @@ authors: [vijay]
 tags: [spring, java]
 ---
 
-### Spring Framework
+## Spring Framework
 
 The **Spring Framework** is a comprehensive and widely-used framework in the Java ecosystem for building enterprise-level applications. Its core feature is **dependency injection (DI)**, which helps with the loose coupling of components, making applications easier to manage and test. Spring provides many modules for various tasks, like web development, data access, messaging, and more, making it highly modular and suitable for a variety of projects.
 
@@ -18,7 +18,7 @@ The **Spring Framework** is a comprehensive and widely-used framework in the Jav
 4. **Web Development**: Spring MVC (Model-View-Controller) module helps in building web applications.
 5. **Modularity**: Has different modules like Spring Core, Spring Data, Spring Web, Spring Security, etc.
 
-### Spring Boot
+## Spring Boot
 
 **Spring Boot** is a project built on top of the Spring Framework that aims to simplify the process of creating stand-alone, production-ready Spring applications. It abstracts away much of the configuration and boilerplate code that is traditionally associated with setting up a Spring project. With Spring Boot, you can get a Spring application up and running with minimal setup.
 
@@ -29,7 +29,7 @@ The **Spring Framework** is a comprehensive and widely-used framework in the Jav
 4. **Spring Boot Starters**: Simplifies dependency management by providing pre-configured sets of libraries (Starters) for different use cases (e.g., `spring-boot-starter-web` for web applications).
 5. **Production-Ready Features**: Provides metrics, health checks, and externalized configuration to help in production management.
 
-### Relationship Between Spring Framework and Spring Boot
+## Relationship Between Spring Framework and Spring Boot
 
 - **Spring Framework** is the foundation of Spring-based projects and includes all the core functionalities, like DI, AOP, and MVC. Spring Boot, however, is built on top of the Spring Framework to simplify the process of developing Spring applications.
 - **Spring Boot** is not a replacement but an enhancement for the Spring Framework, offering tools and defaults that help developers to rapidly create applications without writing too much configuration.

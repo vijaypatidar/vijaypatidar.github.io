@@ -5,13 +5,13 @@ authors: [vijay]
 tags: [java]
 ---
 
-### **Introduction**
+## **Introduction**
 
 In modern distributed systems, observability is crucial for monitoring application performance and troubleshooting issues. OpenTelemetry (OTel) is a powerful tool for collecting telemetry data such as traces, metrics, and logs. In this guide, we'll walk through how to instrument a Spring Boot application with OpenTelemetry without using the Java agent, and how to export the telemetry data to Jaeger using Docker.
 
 <!-- truncate -->
 
-### **Step 1: Setting Up OpenTelemetry in Spring Boot**
+## **Step 1: Setting Up OpenTelemetry in Spring Boot**
 
 First, you'll need to add the necessary OpenTelemetry dependencies to your Spring Boot project. Here's how to do it with Gradle:
 
@@ -24,7 +24,7 @@ dependencies {
 
 These dependencies bring in the OpenTelemetry SDK and the Spring Boot starter, which helps in auto-configuring the instrumentation of your application.
 
-### **Step 2: Configuring OpenTelemetry in Spring Boot**
+## **Step 2: Configuring OpenTelemetry in Spring Boot**
 
 Next, configure OpenTelemetry in your `application.yml` (or `application.properties`) to define how traces are exported and propagated:
 
@@ -53,7 +53,7 @@ Here’s what each part does:
 - **propagators**: Configures the trace context propagation.
 - **resource.attributes**: Adds metadata like environment and service name to the traces.
 
-### **Step 3: Running Jaeger with Docker Compose**
+## **Step 3: Running Jaeger with Docker Compose**
 
 To visualize the traces, you'll need a tool like Jaeger. Here’s a `docker-compose.yml` setup that runs Jaeger with Elasticsearch as the storage backend:
 
@@ -109,10 +109,10 @@ This setup creates three services:
 - **Jaeger Query**: Provides a UI to view and query traces.
 - **Elasticsearch**: Stores the trace data.
 
-### **Step 4: Testing the Setup**
+## **Step 4: Testing the Setup**
 
 Once everything is configured, start your application and the Docker Compose setup. Generate some traffic in your application to produce traces. You should see the traces appear in the Jaeger UI at `http://localhost:16686`.
 
-### **Conclusion**
+## **Conclusion**
 
 By following these steps, you've successfully instrumented your Spring Boot application with OpenTelemetry, configured it to export traces to Jaeger, and visualized the traces without using the OpenTelemetry Java agent. This approach offers flexibility and control over how your application is instrumented.

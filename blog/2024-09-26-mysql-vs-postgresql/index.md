@@ -7,7 +7,7 @@ tags: [database]
 
 Choosing between MySQL and PostgreSQL depends on your project requirements, data complexity, and specific use cases. Here’s a breakdown of when to choose each:
 
-### **When to Choose MySQL**
+## **When to Choose MySQL**
 
 1. **Simplicity and Ease of Use**: Ideal for beginners or small applications where quick setup and ease of management are priorities.
 <!-- truncate -->
@@ -20,7 +20,7 @@ Choosing between MySQL and PostgreSQL depends on your project requirements, data
 
 5. **Replication Needs**: Offers simpler replication features, making it a good choice for applications requiring master-slave replication.
 
-### **When to Choose PostgreSQL**
+## **When to Choose PostgreSQL**
 
 1. **Complex Queries**: Preferred for applications requiring complex queries, advanced data types, and powerful analytical capabilities.
 
@@ -34,13 +34,13 @@ Choosing between MySQL and PostgreSQL depends on your project requirements, data
 
 6. **Geospatial Data**: Excellent choice if you need to handle geospatial data with complex queries.
 
-### **Considerations for Both**
+## **Considerations for Both**
 
 - **Community and Support**: Both databases have strong communities and plenty of resources available.
 - **Hosting**: Check if your hosting provider supports the database of your choice and offers optimized configurations.
 - **Migration Plans**: If you plan to scale your application, consider how easy it is to migrate from one database to another.
 
-### **Conclusion**
+## **Conclusion**
 
 - Choose **MySQL** for simpler, read-heavy applications with less complexity.
 - Opt for **PostgreSQL** when you need advanced features, complex queries, and robust data integrity.
