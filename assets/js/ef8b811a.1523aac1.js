@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_portfolio=self.webpackChunkmy_portfolio||[]).push([[8947],{6600:t=>{t.exports=JSON.parse('{"authors":[{"name":"Vijay Patidar","title":"Fullstack Software Engineer","url":"https://github.com/vijaypatidar","imageURL":"https://github.com/vijaypatidar.png","key":"vijay","page":null,"count":7}]}')}}]);
