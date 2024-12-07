@@ -14,7 +14,7 @@
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
     "typecheck": "tsc",
-    "deploy-gh": "gh-pages -d build",
+    "deploy-gh": "docusaurus build && gh-pages -d build",
     "predeploy": "npm run build"
   },
   "dependencies": {
