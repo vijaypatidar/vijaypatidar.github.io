@@ -2,7 +2,7 @@
 slug: how-to-create-entity-classes-for-relational-tables
 title: How to Create Entity Classes for Relational Tables
 authors: [vijay]
-tags: [JPA, java]
+tags: [jpa, java]
 ---
 
 ## **How to Create Entity Classes for Relational Tables**

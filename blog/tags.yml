@@ -6,8 +6,11 @@ spring:
   label: Spring
   permalink: /spring
   description: Spring Boot
-
 database:
   label: Database
   permalink: /database
   description: Database
+jpa:
+  label: JPA
+  permalink: /jpa
+  description: Java Persistence API
