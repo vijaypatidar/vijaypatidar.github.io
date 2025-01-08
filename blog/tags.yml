@@ -14,3 +14,11 @@ jpa:
   label: JPA
   permalink: /jpa
   description: Java Persistence API
+cicd:
+  label: CI/CD
+  permalink: /cicd
+  description: CI/CD Pileline
+github-action:
+  label: Github Action
+  permalink: /github-action
+  description: Github Action CI/CD

@@ -15,6 +15,7 @@ function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
   return (
     <header className={clsx("hero hero--primary", styles.heroBanner)}>
+      <meta name="google-adsense-account" content="ca-pub-4043007075380826"></meta>
       <div className="container">
         <Avatar
           style={{ display: "inline-block" }}
