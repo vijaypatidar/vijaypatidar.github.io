@@ -28,6 +28,9 @@ const projects: Project[] = [
     title: "SendKr",
     description:
       "SendKr is an easy to use file and folder transfer application. Supports all types of file to transfer from one android smartphone to another android smartphone.",
+    gitRepo: "https://github.com/vijaypatidar/sendkr",
+    startTime: "Jul 2020",
+    endTime: "Jan 2021",
   },
   {
     id: "project-3",

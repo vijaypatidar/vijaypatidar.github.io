@@ -44,7 +44,7 @@ const ProjectComponent = (props: ProjectComponentProps) => {
     endTime,
   } = props.project;
   return (
-    <Card style={{ height: "100%" }}>
+    <Card>
       {featureImage && (
         <CardMedia
           component="img"
@@ -80,7 +80,7 @@ const ProjectComponent = (props: ProjectComponentProps) => {
 
         {liveUrl && (
           <Link href={liveUrl} target="_blank">
-            <Button>View Live</Button>{" "}
+            <Button >View Live</Button>{" "}
           </Link>
         )}
       </CardActions>
@@ -95,7 +95,7 @@ export const ProjectsComponent = (props: ProjectsComponentProps) => {
   return (
     <Grid container spacing={1} marginTop={1} marginBottom={1}>
       {props.projects.map((project) => (
-        <Grid item xs={12} sm={6}>
+        <Grid item xs={12} sm={12}>
           <ProjectComponent project={project} key={project.id} />
         </Grid>
       ))}
