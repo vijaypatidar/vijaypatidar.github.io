@@ -2,6 +2,7 @@
 title: Setup ANTLR in Java Project and Write Grammar for Parsing Boolean Algebra Expressions
 description: Learn how to set up ANTLR in a Java project using Gradle and create a custom grammar to parse Boolean algebra expressions.
 slug: setup-antlr-java-boolean-grammar
+authors: [vijay]
 tags: [antlr, java]
 ---
 
@@ -10,6 +11,8 @@ ANTLR (Another Tool for Language Recognition) is a powerful parser generator use
 - Set up ANTLR in a Java project using Gradle.
 - Write a grammar for parsing Boolean algebra expressions.
 - Generate lexer and parser code using the Gradle plugin.
+
+<!-- truncate -->
 
 ## Step 1: Add ANTLR Plugin to `build.gradle`
 

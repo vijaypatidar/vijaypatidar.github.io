@@ -4,12 +4,6 @@ title: Setup flyway migration with spring boot
 authors: [vijay]
 tags: [flyway, spring]
 ---
----
-slug: 2025-02-10-Setup-flyway-migration-with-spring-boot
-title: Setup Flyway Migration with Spring Boot
-authors: [vijay]
-tags: [flyway, spring]
----
 
 # Setup Flyway Migration with Spring Boot
 
