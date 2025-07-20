@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_portfolio=self.webpackChunkmy_portfolio||[]).push([[8716],{8716:(e,c,o)=>{o.d(c,{createPacketServices:()=>r.$});var r=o(9811);o(8198)}}]);
