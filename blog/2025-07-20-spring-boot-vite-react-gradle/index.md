@@ -10,7 +10,7 @@ tags: [spring-boot, react, gradle, vite]
 
 While working on a full-stack Spring Boot application, I needed to develop a React-based frontend and serve it alongside the backend. To streamline the development and build processes, I decided to manage the frontend as a submodule within the same Gradle project using the `gradle-node-plugin`.
 
-## <!-- truncate -->
+<!-- truncate -->
 
 ## **Setting Up the Frontend with Vite + React**
 
