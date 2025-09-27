@@ -17,7 +17,7 @@ But what’s the actual difference between them, and which one should you choose
 
 <!-- truncate -->
 
-## 🔹 What is ONNX?
+## What is ONNX?
 
 [ONNX](https://onnx.ai/) (Open Neural Network Exchange) is an **open standard format** for machine learning models.  
 Its main purpose is **interoperability** — you can train a model in PyTorch, export it to ONNX, and then run it with ONNX Runtime in Java, C++, or Python.
@@ -29,7 +29,7 @@ By default, ONNX models store weights in **floating-point precision** (usually F
 
 ---
 
-## 🔹 What is a Quantized Model?
+## What is a Quantized Model?
 
 A **quantized model** is an optimized version of a neural network where weights (and sometimes activations) are stored in **lower precision**, such as INT8 instead of FP32.
 
@@ -46,7 +46,7 @@ The trade-off is a **slight accuracy drop**, but for many use cases (like embedd
 
 ---
 
-## 🔹 How LangChain4j Provides Both
+## How LangChain4j Provides Both
 
 In LangChain4j, both **original** and **quantized** models are packaged as Maven artifacts.  
 The **quantized versions** have a `-q` suffix in the artifact name and `Quantized` in the Java class.
@@ -81,7 +81,7 @@ EmbeddingModel model = new AllMiniLmL6V2QuantizedEmbeddingModel();
 
 ---
 
-## 🔹 When to Use Which?
+## When to Use Which?
 
 | Use Case                                   | Recommendation     |
 | ------------------------------------------ | ------------------ |
@@ -92,7 +92,7 @@ EmbeddingModel model = new AllMiniLmL6V2QuantizedEmbeddingModel();
 
 ---
 
-## 🔹 Key Takeaway
+## Key Takeaway
 
 -   **ONNX model (original):** FP32 precision, larger, slower, but more accurate.
 -   **Quantized ONNX model:** INT8 precision, smaller, faster, with minor accuracy loss.
